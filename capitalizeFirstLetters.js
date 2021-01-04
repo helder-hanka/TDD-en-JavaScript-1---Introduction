@@ -5,7 +5,7 @@ const assert = require('assert');
 
 function capitalizeFirstLetters (input) {
     return input.length > 0
-    ? input[0].toUpperCase() + input.split()
+    ? input.split(' ').map( i => i[0].toUpperCase() + i.slice(1)).join(' ')
     : '';
 }
 
@@ -20,3 +20,4 @@ assert.strictEqual(capitalizeFirstLetters('z'), 'Z');
 
 assert.strictEqual(capitalizeFirstLetters(''), '');
 
+console.log(capitalizeFirstLetters('i am learning TDD'))
