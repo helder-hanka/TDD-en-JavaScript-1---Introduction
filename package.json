@@ -1,0 +1,26 @@
+{
+  "name": "js-tdd-intro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "capitalizeFirstLetters.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helder-hanka/TDD-en-JavaScript-1---Introduction.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/helder-hanka/TDD-en-JavaScript-1---Introduction/issues"
+  },
+  "homepage": "https://github.com/helder-hanka/TDD-en-JavaScript-1---Introduction#readme",
+  "dependencies": {
+    "mocha": "^8.2.1"
+  }
+}
